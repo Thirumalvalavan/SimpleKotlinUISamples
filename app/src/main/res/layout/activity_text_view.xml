@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:id="@+id/linearLayout"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:id="@+id/textViewEllipsize"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:ellipsize="end"
+        android:maxLines="1"
+        android:text="This is very long String. We can show in the margue...."
+        android:textSize="18sp" />
+
+
+    <TextView
+        android:id="@+id/textViewClickMe"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:background="@color/colorPrimaryDark"
+        android:padding="@android:dimen/app_icon_size"
+        android:shadowColor="@android:color/black"
+        android:text="TextView Click Me" />
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Android TextView Color"
+        android:textAllCaps="true"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#234568"
+        android:textStyle="bold|italic" />
+
+
+    <TextView
+        android:id="@+id/textViewOpacity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:drawableLeft="@mipmap/ic_launcher"
+        android:drawablePadding="16dp"
+        android:gravity="center"
+        android:text="Android TextView Opacity is 50 percent"
+        android:textColor="#50234568"
+        android:textSize="14sp"
+        android:typeface="serif" />
+
+    <!--android:drawableLeft="@mipmap/ic_launcher"-->
+
+
+</LinearLayout>
