@@ -49,5 +49,15 @@ class MainActivity : AppCompatActivity() {
             val intent = Intent(this, SpinnerActivity::class.java)
             startActivity(intent)
         }
+
+        timePickerButton.setOnClickListener {
+            val intent = Intent(this, TimePickerActivity::class.java)
+            startActivity(intent)
+        }
+
+        datePickerButton.setOnClickListener {
+            val intent = Intent(this, DatePickerActivity::class.java)
+            startActivity(intent)
+        }
     }
 }

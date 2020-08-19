@@ -68,7 +68,19 @@
             android:layout_marginTop="10dp"
             android:text="Spinner Button" />
 
+        <Button
+            android:id="@+id/timePickerButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Time picker Button" />
 
+        <Button
+            android:id="@+id/datePickerButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Date picker Button" />
 
     </LinearLayout>
 
