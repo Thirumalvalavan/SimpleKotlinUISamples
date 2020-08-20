@@ -5,7 +5,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".MainActivity">
+    tools:context=".MainActivity"
+    android:paddingBottom="15dp">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -81,6 +82,22 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
             android:text="Date picker Button" />
+
+        <Button
+            android:id="@+id/seekBarButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="SeekBar Button" />
+
+        <Button
+            android:id="@+id/alertDialogButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Alert Dialog Button" />
+
+
 
     </LinearLayout>
 

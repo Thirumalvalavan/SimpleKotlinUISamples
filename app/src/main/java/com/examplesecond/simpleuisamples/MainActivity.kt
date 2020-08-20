@@ -59,5 +59,15 @@ class MainActivity : AppCompatActivity() {
             val intent = Intent(this, DatePickerActivity::class.java)
             startActivity(intent)
         }
+
+        seekBarButton.setOnClickListener {
+            val intent = Intent(this, SeekBarActivity::class.java)
+            startActivity(intent)
+        }
+
+        alertDialogButton.setOnClickListener {
+            val intent = Intent(this, AlertDialogActivity::class.java)
+            startActivity(intent)
+        }
     }
 }
