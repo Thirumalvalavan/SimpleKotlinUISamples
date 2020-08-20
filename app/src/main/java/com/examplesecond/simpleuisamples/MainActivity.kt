@@ -69,5 +69,15 @@ class MainActivity : AppCompatActivity() {
             val intent = Intent(this, AlertDialogActivity::class.java)
             startActivity(intent)
         }
+
+        switchButton.setOnClickListener {
+            val intent = Intent(this, SwitchActivity::class.java)
+            startActivity(intent)
+        }
+
+        ratingBarButton.setOnClickListener {
+            val intent = Intent(this, RatingBarActivity::class.java)
+            startActivity(intent)
+        }
     }
 }

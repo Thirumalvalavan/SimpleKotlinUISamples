@@ -7,4 +7,10 @@
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
+    <style name="CustomRatingBar" parent="Widget.AppCompat.RatingBar">
+        <item name="android:progressDrawable">@drawable/custom_ratingbar</item>
+        <item name="colorControlNormal">#f57c00</item>
+        <item name="colorControlActivated">#c51162</item>
+    </style>
+
 </resources>
